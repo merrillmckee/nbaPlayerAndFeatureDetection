@@ -6,6 +6,7 @@ Create a custom dataset and train a Yolov5 convolutional neural network to detec
 Video links
 
 https://drive.google.com/file/d/1o33uouQ80AXnw7bD8DCnivcyyH1oVGi7/view?usp=sharing
+https://drive.google.com/file/d/1wQMLFX-O-B8LH7mQ7QLjDChl485jEx6h/view?usp=sharing
 
 A few still images
 
