@@ -22,5 +22,19 @@ Steps
   - After each iteration I added 200-400 images
 - Final dataset contains 1022 labeled images
 
+Classes
+- Players
+- Referees
+- Basketball
+- Hoop
+- Midcourt
+- Free-throw circle
+- Corner
+- Baseline
+- Restricted area
+
+Notes:
+I added referees specifically to help the object detector avoid labeling referees as players.  In many videos, the basketball is a blur due to its high motion; I often had trouble finding it with my eyes.  As I evolved a better and better object detector the detector often found blurred basketballs quicker than my eyes.  It is still one of the weaker performing classes relative to the others.  I added extra logic to output more images with the midcourt as this court feature was under-represented.  I originally wanted features like sidelines and the full baseline but removed sidelines and limited the size of the baseline feature to avoid these labels taking up entire images.
+
 Phase 2:
 Use the detected features to transform the wide-angle perspective camera view to a top-down overlay where the players and basketball can be tracked per image.
