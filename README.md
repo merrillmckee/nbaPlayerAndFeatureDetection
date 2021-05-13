@@ -1,7 +1,7 @@
 Welcome to the nbaPlayerAndFeatureDetection wiki!
 
 Phase 1:
-Create a custom dataset and train a Yolov5 convolutional neural network to detect NBA players and other court features.  Here are results from running the trained objected detector on a YouTube video:
+Create a custom dataset and train a Yolov5 (https://github.com/ultralytics/yolov5) convolutional neural network to detect NBA players and other court features.  Here are results from running the trained objected detector on a YouTube video:
 
 Video links
 
